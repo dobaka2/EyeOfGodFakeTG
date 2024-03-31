@@ -8,7 +8,7 @@ API_TOKEN = "token"
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=6811326492:AAFBNhZYR01L7Y_YdPGUYgdiEMGikA4Vcws)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
